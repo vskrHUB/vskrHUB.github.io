@@ -41,7 +41,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  achievements works!\n</p>\n"
+module.exports = "<p>\r\n  achievements works!\r\n</p>\r\n"
 
 /***/ }),
 
@@ -143,7 +143,7 @@ module.exports = "/* main left head */\r\n\r\n.text{\r\n    color:white;\r\n}\r\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div style=\"background:#dfdfdf;padding-top:50px;padding-bottom:50px;\">\n  <div class=\"container text-center\" style=\"background-color: #ffffff\">\n    <div class=\"row\">\n      <div class=\"col-lg-3 column_maindiv\" style=\"background-color: #3d476b;\" >\n        <div style=\"text-align: center;margin:20px 0px;\">\n          <div>\n            <img class=\"text\" src=\"../assets/images/dp.jpg\" alt=\"profile pic\" style=\"width:210px;\" />\n          </div>\n          <div style=\"margin:10px 0px;\">\n            <h5 class=\"text\">Vuta Sai Kumar Reddy</h5>\n          </div>\n          <div>\n            <p class=\"text\">Life will always try to make things difficult for you, but every time you overcome obstacles, you come out stronger</p>\n          </div>\n          <div class=\"social-media-div\">\n            \n            <label for=\"Facebook\">\n              <a href=\"https://www.facebook.com/vskrz/\" target=\"_blank\">\n                <i class=\"fab fa-facebook-f\"></i>\n              </a>\n            </label>\n            <label for=\"Twitter\">\n              <a href=\"https://twitter.com/the_vskr\" target=\"_blank\">\n                <i class=\"fab fa-twitter\"></i>\n              </a>\n            </label>\n            <label for=\"LinkedIN\">\n              <a href=\"https://www.linkedin.com/in/vutasaikumarreddy/\" target=\"_blank\">\n                <i class=\"fab fa-linkedin-in\"></i>\n              </a>\n            </label>\n            <label for=\"LinkedIN\">\n              <a href=\"https://thevskr.wordpress.com/\" target=\"_blank\">\n                <i class=\"fab fa-wordpress\"></i>\n              </a>\n            </label>\n          </div>\n        </div>\n      </div>\n      <div class=\"col-lg-9 column_maindiv\">\n        <div class=\"row\">\n          <div class=\"col-lg-1\" style=\"background-color: #3d476b;padding: 0px;\">\n            <div style=\"height:200px;\"></div>\n            <div [routerLink]=\"['/home']\"  [ngClass]=\"{'active':locationHash=='/home'?true:false}\" class=\"icon-div\" for=\"Home\">\n              <i class=\"fas fa-home\"></i>\n            </div>\n            <div [routerLink]=\"['/profile']\"  [ngClass]=\"{'active':locationHash=='/profile'?true:false}\" class=\"icon-div\" for=\"Profile\">\n              <i class=\"fas fa-user-tie\"></i>\n            </div>\n            <div [routerLink]=\"['/experience']\" [ngClass]=\"{'active':locationHash=='/experience'?true:false}\" class=\"icon-div\" for=\"Experience\">\n              <i class=\"fas fa-briefcase \"></i>\n              <!-- <i class=\"fas fa-graduation-cap\" style=\"margin-left:5px;\"></i> -->\n            </div>\n            <div [routerLink]=\"['/skills']\"  [ngClass]=\"{'active':locationHash=='/skills'?true:false}\" class=\"icon-div\" for=\"Skills\">\n              <i class=\"fas fa-cogs\"></i>\n            </div>\n            <div [routerLink]=\"['/achievements']\"  [ngClass]=\"{'active':locationHash=='/achievements'?true:false}\" class=\"icon-div\" for=\"Achievements\" >\n              <i class=\"fas fa-award\"></i>\n            </div>\n            <div  [routerLink]=\"['/hobbies']\" [ngClass]=\"{'active':locationHash=='/hobbies'?true:false}\" class=\"icon-div\" for=\"Hobbies\">\n              <i class=\"fas fa-puzzle-piece\"></i>\n            </div>\n          </div>\n          <div class=\"col-lg-11\"  style=\"padding:0px\">\n            <div style=\"border:solid #3d476b;border-width:5px 5px 5px 0px;height:490px;\">\n              <router-outlet></router-outlet>\n            </div> \n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n  \n    "
+module.exports = "<div style=\"padding-top:70px;padding-bottom:70px;\">\r\n  <div class=\"container text-center\" style=\"background-color: #ffffff\">\r\n    <div class=\"row\">\r\n      <div class=\"col-lg-3 column_maindiv\" style=\"background-color: #3d476b;\" >\r\n        <div style=\"text-align: center;margin:20px 0px;\">\r\n          <div>\r\n            <img class=\"text\" src=\"../assets/images/dp.jpg\" alt=\"profile pic\" style=\"width:210px;\" />\r\n          </div>\r\n          <div style=\"margin:10px 0px;\">\r\n            <h5 class=\"text\">Vuta Sai Kumar Reddy</h5>\r\n          </div>\r\n          <div>\r\n            <p class=\"text\">Life will always try to make things difficult for you, but every time you overcome obstacles, you come out stronger</p>\r\n          </div>\r\n          <div class=\"social-media-div\">\r\n            \r\n            <label for=\"Facebook\">\r\n              <a href=\"https://www.facebook.com/vskrz/\" target=\"_blank\">\r\n                <i class=\"fab fa-facebook-f\"></i>\r\n              </a>\r\n            </label>\r\n            <label for=\"Twitter\">\r\n              <a href=\"https://twitter.com/the_vskr\" target=\"_blank\">\r\n                <i class=\"fab fa-twitter\"></i>\r\n              </a>\r\n            </label>\r\n            <label for=\"LinkedIN\">\r\n              <a href=\"https://www.linkedin.com/in/vutasaikumarreddy/\" target=\"_blank\">\r\n                <i class=\"fab fa-linkedin-in\"></i>\r\n              </a>\r\n            </label>\r\n            <label for=\"LinkedIN\">\r\n              <a href=\"https://thevskr.wordpress.com/\" target=\"_blank\">\r\n                <i class=\"fab fa-wordpress\"></i>\r\n              </a>\r\n            </label>\r\n          </div>\r\n        </div>\r\n      </div>\r\n      <div class=\"col-lg-9 column_maindiv\">\r\n        <div class=\"row\">\r\n          <div class=\"col-lg-1\" style=\"background-color: #3d476b;padding: 0px;\">\r\n            <div style=\"height:200px;\"></div>\r\n            <div [routerLink]=\"['/home']\"  [ngClass]=\"{'active':locationHash=='/home'?true:false}\" class=\"icon-div\" for=\"Home\">\r\n              <i class=\"fas fa-home\"></i>\r\n            </div>\r\n            <div [routerLink]=\"['/profile']\"  [ngClass]=\"{'active':locationHash=='/profile'?true:false}\" class=\"icon-div\" for=\"Profile\">\r\n              <i class=\"fas fa-user-tie\"></i>\r\n            </div>\r\n            <div [routerLink]=\"['/experience']\" [ngClass]=\"{'active':locationHash=='/experience'?true:false}\" class=\"icon-div\" for=\"Experience\">\r\n              <i class=\"fas fa-briefcase \"></i>\r\n              <!-- <i class=\"fas fa-graduation-cap\" style=\"margin-left:5px;\"></i> -->\r\n            </div>\r\n            <div [routerLink]=\"['/skills']\"  [ngClass]=\"{'active':locationHash=='/skills'?true:false}\" class=\"icon-div\" for=\"Skills\">\r\n              <i class=\"fas fa-cogs\"></i>\r\n            </div>\r\n            <div [routerLink]=\"['/achievements']\"  [ngClass]=\"{'active':locationHash=='/achievements'?true:false}\" class=\"icon-div\" for=\"Achievements\" >\r\n              <i class=\"fas fa-award\"></i>\r\n            </div>\r\n            <div  [routerLink]=\"['/hobbies']\" [ngClass]=\"{'active':locationHash=='/hobbies'?true:false}\" class=\"icon-div\" for=\"Hobbies\">\r\n              <i class=\"fas fa-puzzle-piece\"></i>\r\n            </div>\r\n          </div>\r\n          <div class=\"col-lg-11\"  style=\"padding:0px\">\r\n            <div style=\"background-color:#ffffff;border:solid #3d476b;border-width:5px 5px 5px 0px;height:490px;\">\r\n              <router-outlet></router-outlet>\r\n            </div> \r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n  \r\n    "
 
 /***/ }),
 
@@ -287,7 +287,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  education works!\n</p>\n"
+module.exports = "<p>\r\n  education works!\r\n</p>\r\n"
 
 /***/ }),
 
@@ -350,7 +350,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  experience works!\n</p>\n"
+module.exports = "<p>\r\n  experience works!\r\n</p>\r\n"
 
 /***/ }),
 
@@ -413,7 +413,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  hobbies works!\n</p>\n"
+module.exports = "<p>\r\n  hobbies works!\r\n</p>\r\n"
 
 /***/ }),
 
@@ -476,7 +476,7 @@ module.exports = ".text{\r\n    color:white;\r\n}\r\n/*# sourceMappingURL=data:a
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div style=\"padding:200px 50px 20px 50px;\">\n  <div>\n    <h3>Hello I'am</h3>\n  </div>\n  <div>\n    <h1>Vuta Sai Kumar Reddy</h1>\n  </div>\n  <div>\n    <h3>Software Engineer</h3>\n  </div>\n  <div>\n      <i class=\"fas fa-map-marker-alt\" style=\"margin-right:5px;\"></i>\n      <span>Hyderabad, Telangana State, India</span>\n  </div>\n</div>\n"
+module.exports = "<div style=\"padding:200px 50px 20px 50px;\">\r\n  <div>\r\n    <h3>Hello I'am</h3>\r\n  </div>\r\n  <div>\r\n    <h1>Vuta Sai Kumar Reddy</h1>\r\n  </div>\r\n  <div>\r\n    <h3>Software Engineer</h3>\r\n  </div>\r\n  <div>\r\n      <i class=\"fas fa-map-marker-alt\" style=\"margin-right:5px;\"></i>\r\n      <span>Hyderabad, Telangana State, India</span>\r\n  </div>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -539,7 +539,7 @@ module.exports = ".profile-name{\r\n    text-align:left;\r\n    padding:10px 5px
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div>\n  <h3 class=\"profile-name\">Profile</h3>\n</div>\n<div class=\"container\">\n<!--     <div>\n        <h5 class=\"profile-name\">Quick Info</h5>\n      </div> -->\n  <div class=\"row\">\n    <div class=\"col-lg-6\">\n      <div class=\"about\">\n        <div>\n          <i class=\"fas fa-user-tie\"></i>\n          <label>Name</label>\n          <span>Vuta Sai Kumar Reddy</span>\n        </div>\n  \n        <div>\n          <i class=\"far fa-calendar-alt\"></i>\n          <label>Date of birth</label>\n          <span>August 28, 1995</span>\n        </div>\n  \n        <div>\n          <i class=\"fas fa-map-marker-alt\"></i>\n          <label>Address</label>\n          <span>Hyderabad, Telangana State, India</span>\n        </div>\n        <div>\n          <i class=\"far fa-envelope\"></i>\n          <label>Email</label>\n          <span>vutasaikumarreddy@gmail.com</span>\n        </div>\n      </div>\n    </div>\n    <div class=\"col-lg-6\">\n      <div class=\"about\">\n          <div>\n              <i class=\"fas fa-language\"></i>\n              <label>Languages</label>\n              <span>English, Hindi & Telugu</span>\n            </div>\n            <div>\n              <i class=\"fas fa-flag\"></i>\n              <label>Nationality</label>\n              <span>Indian</span>\n            </div>\n            <div>\n              <i class=\"fas fa-globe-asia\"></i>\n              <label>Website</label>\n              <span>\n                <a href=\"https://thevskr.wordpress.com/\" target=\"_blank\">www.thevskr.wordpress.com</a>\n              </span>\n            </div>\n      </div>\n    </div>\n  </div>\n</div>"
+module.exports = "<div>\r\n  <h3 class=\"profile-name\">Profile</h3>\r\n</div>\r\n<div class=\"container\">\r\n<!--     <div>\r\n        <h5 class=\"profile-name\">Quick Info</h5>\r\n      </div> -->\r\n  <div class=\"row\">\r\n    <div class=\"col-lg-6\">\r\n      <div class=\"about\">\r\n        <div>\r\n          <i class=\"fas fa-user-tie\"></i>\r\n          <label>Name</label>\r\n          <span>Vuta Sai Kumar Reddy</span>\r\n        </div>\r\n  \r\n        <div>\r\n          <i class=\"far fa-calendar-alt\"></i>\r\n          <label>Date of birth</label>\r\n          <span>August 28, 1995</span>\r\n        </div>\r\n  \r\n        <div>\r\n          <i class=\"fas fa-map-marker-alt\"></i>\r\n          <label>Address</label>\r\n          <span>Hyderabad, Telangana State, India</span>\r\n        </div>\r\n        <div>\r\n          <i class=\"far fa-envelope\"></i>\r\n          <label>Email</label>\r\n          <span>vutasaikumarreddy@gmail.com</span>\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <div class=\"col-lg-6\">\r\n      <div class=\"about\">\r\n          <div>\r\n              <i class=\"fas fa-language\"></i>\r\n              <label>Languages</label>\r\n              <span>English, Hindi & Telugu</span>\r\n            </div>\r\n            <div>\r\n              <i class=\"fas fa-flag\"></i>\r\n              <label>Nationality</label>\r\n              <span>Indian</span>\r\n            </div>\r\n            <div>\r\n              <i class=\"fas fa-globe-asia\"></i>\r\n              <label>Website</label>\r\n              <span>\r\n                <a href=\"https://thevskr.wordpress.com/\" target=\"_blank\">www.thevskr.wordpress.com</a>\r\n              </span>\r\n            </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>"
 
 /***/ }),
 
@@ -602,7 +602,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  skills works!\n</p>\n"
+module.exports = "<p>\r\n  skills works!\r\n</p>\r\n"
 
 /***/ }),
 
@@ -707,7 +707,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\personalvcard\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! D:\Codebase\Angular\personalvcard\src\main.ts */"./src/main.ts");
 
 
 /***/ })
